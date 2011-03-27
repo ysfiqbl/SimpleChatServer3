@@ -1,17 +1,15 @@
 package lk.sde.simplechatserver;
 
 
+import lk.sde.ocsf.server.AbstractServer;
+import lk.sde.ocsf.server.ConnectionToClient;
 import lk.sde.common.utils.Login;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import lk.sde.common.Channel;
 import java.io.IOException;
 import lk.sde.common.ServerConsoleCommandFilter;
 import lk.sde.common.ChatServerCommandFilter;
-import lk.sde.ocsf.server.AbstractServer;
-import lk.sde.ocsf.server.ConnectionToClient;
 import static lk.sde.common.ServerConsoleCommandFilter.*;
 
 // This file contains material supporting section 3.7 of the textbook:
